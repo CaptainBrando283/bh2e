@@ -1,6 +1,10 @@
 {
   "Actor": {
-    "types" : ["character", "creature"],
+    "types" : [
+      "character", 
+      "creature",
+      "group"
+    ],
     "character": {
       "attributes": {
         "strength": 10,
@@ -28,7 +32,15 @@
     }
   },
   "Item": {
-  	"types": ["ability", "armour", "creature-attack", "equipment", "magic", "weapon"],
+  	"types": [
+      "ability", 
+      "armour", 
+      "creature-attack", 
+      "equipment", 
+      "magic", 
+      "weapon",
+      "hindrances"
+    ],
   	"templates": {
   		"itemBasics": {
   			"description": "",
