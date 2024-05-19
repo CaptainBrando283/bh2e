@@ -3,6 +3,8 @@
     "types" : [
       "character", 
       "creature",
+      "npc",
+      "vehicle",
       "group"
     ],
     "character": {
